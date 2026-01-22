@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'helvetica neue';
+  /* font-family: 'helvetica neue';
+   */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
 }
 html,
@@ -14,13 +16,13 @@ body {
 
 
 .parent{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #111;
   padding: 30px;
   display: flex;
   gap: 30px;
-
+  flex-wrap: wrap;
 }
 
 .card {
@@ -62,11 +64,14 @@ body {
 }
 .center {
   /* background-color: red; */
+  color: #111;
+
 }
 
 .center h3{
   font-size: 17px;
   font-weight: 500;
+  color: #111;
 
 }
 .center h3 span{
@@ -77,6 +82,8 @@ body {
 
 .center h2{
   font-size: 20px;
+  color: #111;
+
 }
 
 .center .tag{
@@ -113,7 +120,7 @@ body {
 
 .bottom h3{
   font-size: 17px;
-
+  color: #0a0a0a;
 }
 
 .bottom p{
