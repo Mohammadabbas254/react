@@ -4,7 +4,6 @@ import {Bookmark} from 'lucide-react'
 const Card = (props) => {
 
   console.log(props.company);
-  
   return (
     <div className="card">
         <div>
@@ -24,7 +23,7 @@ const Card = (props) => {
         <div className="bottom">
             <div>
                 <h3>${props.pay}/hour</h3>
-                <p>Mumbai, India</p>
+                <p>{props.location}</p>
             </div>
               <button>Apply Now</button>
         </div>
