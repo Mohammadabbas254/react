@@ -17,6 +17,21 @@ const App = () => {
       img: 'https://images.unsplash.com/photo-1554180842-41b1dd69d588?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdpcmxzfGVufDB8fDB8fHww',
       intro: '',
       tag: 'Underbanked'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1600600423621-70c9f4416ae9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdpcmxzfGVufDB8fDB8fHww',
+      intro: '',
+      tag: 'Underworld'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1568739253582-afa48fbcea47?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdpcmxzfGVufDB8fDB8fHww',
+      intro: '',
+      tag: 'Supra'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1551773197-51afe7d7250d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8',
+      intro: '',
+      tag: 'Salaar'
     }
   ]
   return (
