@@ -12,6 +12,11 @@ const App = () => {
   return (
     <div className='main'>
       <button onMouseEnter={mouseEnter} onClick={btnClicked}>Click me</button>
+    
+      <button onClick={function(){
+        console.log("hello from button");
+        
+      }}>Another button</button>
     </div>
   )
 }
