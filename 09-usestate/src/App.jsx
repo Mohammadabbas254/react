@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
-  let a = 20;
-  function chnageA(){
-    console.log(a);
-    a++;
-    console.log(a);
+  const [num, setNum] = useState(20);
+  const [name, setName] = useState('Boss')
+  function changeNum(){
+    console.log(num);
+    
+    setNum(30);
+    setName('JK')
   }
   return (
     <div>
-      <h1>Value is {a}</h1>
-      <button onClick={chnageA}>Click Me</button>
+      <h1>Value of a is {num} <br/> Value of name is {name}</h1>
+      <button onClick={changeNum}>Click Me</button>
     </div>
   )
 }
