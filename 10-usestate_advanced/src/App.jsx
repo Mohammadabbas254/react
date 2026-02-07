@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import Card from './Card'
 const App = () => {
 
   const [num, setNum] = useState({user: 'Abbas', age:22})
@@ -18,6 +18,10 @@ const App = () => {
     const newNum2 = [...num2]
     newNum2.push(99)
     setNum2(newNum2)
+    console.log(num2);
+    console.log(newNum2);
+    
+    
   }
   return (
     <div>
@@ -26,6 +30,7 @@ const App = () => {
 
       <h1>{num2}</h1>
       <button onClick={btnClicked2}>click</button>
+      <Card />
     </div>
   )
 }
