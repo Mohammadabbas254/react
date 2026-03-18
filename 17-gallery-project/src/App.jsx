@@ -19,7 +19,8 @@ const App = () => {
   },[])
 
   let printUserData = <h3 className="text-gray-400 text-xs">No user Available</h3>
-
+  console.log(printUserData);
+  
   if(userData.length>0){
     printUserData = userData.map(function(elem, idx){
       
